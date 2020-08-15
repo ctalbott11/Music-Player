@@ -47,7 +47,6 @@ public class AllSongsFragment extends Fragment implements SongsOnItemClickListen
         binding.getViewmodel().getSongsLiveData().observe(this, adapter::submitList);
 
         binding.allSongsRecyclerView.setAdapter(adapter);
-        //adapter.notifyDataSetChanged();
         adapter.setOnItemClickListener(this);
 
 
@@ -57,7 +56,6 @@ public class AllSongsFragment extends Fragment implements SongsOnItemClickListen
     @Override
     public void onItemClick(int position) {
         binding.getViewmodel().onItemClick(position);
-       // AllSongsRepository.getInstance().checkPlayButton();
         }
 
     @Override
