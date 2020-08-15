@@ -15,7 +15,7 @@ import java.util.Set;
 
 public class ArtistRepository {
     public static ArtistRepository instance;
-    ArrayList<String> artists = new ArrayList<>();
+    private ArrayList<String> artists = new ArrayList<>();
 
     @NonNull
     private static MutableLiveData<ArrayList<String>> artistList = new MutableLiveData<>();
