@@ -84,8 +84,7 @@ public class ArtistSongsRepository {
     public void fetchArtistSongs(Context context){
         SharedPreferences preferences = Objects.requireNonNull(context).getSharedPreferences("artist", 0);
         String artist = preferences.getString("artist", "");
-        ArrayList<String> artistNumberOfSongs = new ArrayList<>();
-        ArrayList<String> artistNumberOfAlbums = new ArrayList<>();
+        
         artistSongs.clear();
         new Thread(() -> {
             try {
