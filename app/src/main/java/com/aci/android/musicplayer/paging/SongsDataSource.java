@@ -21,9 +21,6 @@ public class SongsDataSource extends PositionalDataSource<Song> {
     //the size of a page that we want
     public static final int PAGE_SIZE = 20;
 
-    //we will start from the first page which is 1
-    //private static final int FIRST_PAGE = 1;
-
 
     @Override
     public void loadInitial(@NonNull LoadInitialParams params, @NonNull LoadInitialCallback<Song> callback) {
