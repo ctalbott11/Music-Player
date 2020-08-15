@@ -137,11 +137,7 @@ public class MainActivity extends AppCompatActivity implements SongsOnItemClickL
 
     @Override
     public void onItemClick(int position) {
-       /* allSongsFragment.onItemClick(position);
-        if(binding.getViewmodel().isPlaying()){
-            seekUpdate();
-            index = position;
-        }*/
+       
     }
     //click listeners for previous and next songs, respectively.
     //linked to buttons using data binding
