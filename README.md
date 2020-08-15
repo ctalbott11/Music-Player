@@ -7,7 +7,7 @@ This fragment uses the paging library to display a paged list of livedata that i
 
 The second and third fragments are for artists and albums, respectively.
 They list all artists and albums on the device, clicking one displays a new fragment with a list of songs for the artist/album.
-These fragment observe livedata to populate the lists
+These fragments observe livedata to populate the lists
 
 
 This app is a work in progress, I intend to continue to add to and improve it.
