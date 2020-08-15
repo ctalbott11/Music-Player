@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="aci_apps">ACI APPS</string>
+
+
+    <string name="zero_time">00:00 / %1$s</string>
+    <!-- <string name="dateformat">EEE, MMM d yyyy h:mm a</string>-->
+    <string name="no_title">No Title</string>
+    <string name="no_track_loaded">No Track Loaded</string>
+    <string name="saved_recording">Saved Recording</string>
+    <string name="track_length">Track Length</string>
+    <string name="volume">Volume</string>
+    <string name="track_title">Track Title</string>
+    <string name="artist">Artist</string>
+    <string name="share_with">Share With</string>
+    <string name="send_in_email">Send in Email</string>
+    <string name="delete">Delete</string>
+
+    <string name="artist_number_of_songs">Number of Songs: %1$d </string>
+
+    <string name="rotate_down">Rotate Down\u0020</string>
+    <string name="zoom_out">Zoom Out\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="accordion">Accordion\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="back_to_front">Back to Front</string>
+    <string name="saved">Saved</string>
+    <string name="choose_page_swipe_animation">Choose Page Swipe Animation</string>
+    <string name="submit">Submit</string>
+
+    <string name="choose_background">Choose Background</string>
+
+    <string name="change_background">Change Background</string>
+    <string name="change_page_animation">Change Page Animation</string>
+    <string name="page_animations">Page Animations</string>
+
+    <string name="ad_unit_id">ca-app-pub-9501837046924873/4957104402</string>
+    <string name="application_id">ca-app-pub-9501837046924873~4174860994</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_url">https://sites.google.com/s/1hPO2k6rH5Mklb97P4fPhS23HgA3SeI7p/p/1m9PWhx2jv0HMieArXA9fau8Nnm3Vcsv0/edit</string>
+
+    <string name="recording_text"> %1$s</string>
+    <string name="song_title_text"> %1$s</string>
+    <string name="album_title_text"> %1$s</string>
+    <string name="artist_text"> by: %1$s</string>
+
+    <string name="no_songs">No Audio Files on Device</string>
+    <string name="no_recordings">No Recordings on Device</string>
+    <string name="recording">Recording</string>
+
+</resources>
